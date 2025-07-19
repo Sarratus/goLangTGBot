@@ -1,0 +1,39 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go build command
+/build/
+/bin/
+/dist/
+
+# Vendor directory (if you're not using Go modules)
+vendor/
+
+# Dependency directories (for older versions of dep or glide)
+Godeps/
+
+# IDE/editor configs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage files
+*.coverprofile
+coverage.out
+
+# Test result files
+*.testresult
